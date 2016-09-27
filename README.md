@@ -5,6 +5,12 @@ Install globally Gulp
 sudo npm install -g gulp
 
 Now locally
+
+If you are behind proxy
+  Proxy adding to work with Gulp
+  npm config set proxy http://proxyhostname:proxyport
+  npm config set https-proxy http://proxyhostname:proxyport
+
 npm install gulp —-save-dev
 
 Then gulp plugins
